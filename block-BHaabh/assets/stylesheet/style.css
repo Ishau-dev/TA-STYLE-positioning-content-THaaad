@@ -200,10 +200,16 @@ table {
     
 }
 
+
 .col5 small{
     color: grey;
 }
 
 .col5 .fab{
     color: #5385C1;
+}
+
+.col5{
+
+    padding-top: 10px;
 }
