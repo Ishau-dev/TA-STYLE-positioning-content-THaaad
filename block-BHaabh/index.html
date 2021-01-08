@@ -1,10 +1,3 @@
-<!-- 
-### Create a page according to the layout shown below
-
-![Positioning Content Exercise 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/positioning-content/ex-2.png)
-
-- Using CSS resets is necessary.
-- Use semantic tags and keep the nesting and indentation proper. -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,107 +5,122 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/stylesheet/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://kit.fontawesome.com/f291f81dd6.js" crossorigin="anonymous"></script> 
 </head>
 <body>
-    <header class="clearfix">
-        <div class="container">
-            <h1 class="menu logo">Theory</h1>
-            <nav class="menu menus">
-                <a href="#">Home</a>
-                <a href="#">Generic</a>
-                <a href="#">Elements</a>
-            </nav>
-        </div> 
+   
+    <header>
+        <div class="header clearfix">
+            <div class="container">
+                <a href="#" class="brand">Theory</a>
+                <nav class="menu">
+                    <a href="">Home</a>
+                    <a href="#">Generic</a>
+                    <a href="#">Elements</a>
+                </nav>
+            </div>
+        </div>
     </header>
     <main>
-        <section>  
-            <div class="container1"> 
-                <h1>Welcome to Theory</h1>
-                <p>A free responsive HTML5 website template by TEMPLATED</p>
-            </div>
+        <section class="header">
+           <div class="container">
+               <div class="hero">
+                    <h1>Welcome to Theory</h1>
+                    <p>A fine responsive HTML5 & reusable template by TEMPLATED</p>   
+               </div>
+
+           </div> 
+            
         </section>
         <section class="clearfix">
             <div class="container">
-            <article>
-                <h3>Magna tempus sed amet aliquam veroeros</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non adipisci impedit ducimus enim amet voluptatem fuga fugiat illum quidem. Assumenda exercitationem delectus repellendus odio, voluptatibus mollitia sint! Reiciendis, soluta explicabo. Lorem ipsum dolor sit amet, consectetur adipisicing eli Lorem ipsum dolor sit amet, consectetur adipisicing eli</p>
-                <button>More</button>
-            </article>
-            <article>
-                <h3>Magna tempus sed amet aliquam veroeros</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla dolores iusto animi necessitatibus voluptates, modi at dolor perferendis! Suscipit possimus, obcaecati voluptates porro earum accusamus. Minima quos ipsam quae voluptates. Lorem ipsum dolor sit amet, consectetur adipisicing eli Lorem ipsum dolor sit amet, consectetur adipisicing eli</p>
-                <button>More</button>
-            </article>
-            <article>
-                <h3>Magna tempus sed amet aliquam veroeros</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis repellat voluptatem magni deleniti voluptatum ab officiis quos harum explicabo fuga vero, deserunt quo reprehenderit enim! Eius maxime quos sint minima. Lorem ipsum dolor sit amet, consectetur adipisicing eli Lorem ipsum dolor sit amet, consectetur adipisicing eli</p>
-                <button>More</button>
-            </article>
+                <article class="col-1">
+                    <h2>Magna tempus sed amet aliquam veroeros</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ex mollitia fugiat similique nisi nemo dignissimos in dicta, sit provident dolorum asperiores. Iure rem blanditiis reprehenderit error! Ea, magnam incidunt.</p>
+                    <a href="#">More</a>
+                </article>
+                <article class="col-1">
+                    <h2>Magna tempus sed amet aliquam veroeros</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ex mollitia fugiat similique nisi nemo dignissimos in dicta, sit provident dolorum asperiores. Iure rem blanditiis reprehenderit error! Ea, magnam incidunt.</p>
+                    <a href="#">More</a>
+                </article>
+                <article class="col-1">
+                    <h2>Magna tempus sed amet aliquam veroeros</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ex mollitia fugiat similique nisi nemo dignissimos in dicta, sit provident dolorum asperiores. Iure rem blanditiis reprehenderit error! Ea, magnam incidunt.</p>
+                    <a href="#">More</a>
+                </article>
+                <article class="col-1">
+                    <h2>Magna tempus sed amet aliquam veroeros</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ex mollitia fugiat similique nisi nemo dignissimos in dicta, sit provident dolorum asperiores. Iure rem blanditiis reprehenderit error! Ea, magnam incidunt.</p>
+                    <a href="#">More</a>
+                </article>
             </div>
+
+        </section>
+        <section class="header">
+           <div class="container clearfix">
+              <div class="col-2">
+                  <h2>Ipsum Feugiat</h2>
+                  <p>Semor suscipt posure apacle</p>
+              </div>  
+              <div class="col-2-1">
+                  <img src="assets/media/pic03.jpg" alt="">
+                  <h4>Magna</h4>
+                  <p>Capdum dolor</p>
+              </div>
+              <div class="col-2-1">
+                <img src="assets/media/pic04.jpg" alt="">
+                <h4>Magna</h4>
+                <p>Capdum dolor</p>
+            </div>
+            <div class="col-2-1">
+                <img src="assets/media/pic05.jpg" alt="">
+                <h4>Magna</h4>
+                <p>Capdum dolor</p>
+            </div>
+            <div class="col-2-1">
+                <img src="assets/media/pic06.jpg" alt="">
+                <h4>Magna</h4>
+                <p>Capdum dolor</p>
+            </div>
+           </div>
         </section>
         <section class="clearfix">
-            <div class="container container2">
-               <div class="col-3">
-                <h2>Ipsum Feugial</h2>
-                <p>Semper suspici posure apede</p>
-               </div>
-                <div class="box">
-                    <img src="assets/media/pic03.jpg" alt="">
-                    <h4>Magna</h4>
-                    <p>Capdum dolor</p>
+            <div class="container"> 
+                <div class="col3">
+                    <h2>Nunc Dignissim</h2>
+                    <p>aliquam voluntary sun</p>
                 </div>
-                <div class="box">
-                    <img src="assets/media/pic04.jpg" alt="">
-                    <h4>Magna</h4>
-                    <p>Capdum dolor</p>
+                <div class="col3-1">
+                    <img src="assets/media/pic01.jpg" alt="">
+                    <h3>Present placement magna</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt officia suscipit error similique corrupti quae, eaque cumque laboriosam? Eaque ad cupiditate recusandae dolorem dolore! Perferendis quisquam debitis corrupti molestias ipsum!</p>
+                    <a href="">More</a>
                 </div>
-                <div class="box">
-                    <img src="assets/media/pic05.jpg" alt="">
-                    <h4>Magna</h4>
-                    <p>Capdum dolor</p>
+                <div class="col3-1">
+                    <img src="assets/media/pic02.jpg" alt="">
+                    <h3>Present placement magna</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt officia suscipit error similique corrupti quae, eaque cumque laboriosam? Eaque ad cupiditate recusandae dolorem dolore! Perferendis quisquam debitis corrupti molestias ipsum!</p>
+                    <a href="">More</a>
                 </div>
-                <div class="box">
-                    <img src="assets/media/pic06.jpg" alt="">
-                    <h4>Magna</h4>
-                    <p>Capdum dolor</p>
-                </div>
-                
             </div>
-        </section>
-        <section class="clearfix">
-            <div class="container container3">
-            <div class="col-4">
-                <h2>Nunc Dignissim</h2>
-                <p>Aliqum ent volture nam dui</p>
-            </div>
-            <article>
-                <img src="assets/media/pic01.jpg" alt="">
-                <h3>Praesent placert magna</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus laboriosam quia expedita voluptate dolor repellendus ea. Blanditiis vitae quibusdam harum corporis quisquam in esse, sequi libero dignissimos ut neque?</p>
-                <button>More</button>
-            </article>
-            <article>
-                <img src="assets/media/pic02.jpg" alt="">
-                <h3>Praesent placert magna</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione accusamus laboriosam quia expedita voluptate dolor repellendus ea. Blanditiis vitae quibusdam harum corporis quisquam in esse, sequi libero dignissimos ut neque?</p>
-                <button>More</button>
-            </article>
-        </div>
         </section>
     </main>
-    <footer>
+    <footer class="clearfix">
         <div class="container">
-        <hr>
-        <div class="boxs lef">
-            <small>&copy;Petit designs</small>
+            <hr>
+            <div class="col5 brand"><small>&copy;Petit</small></div>
+            <div class="col5 menu">
+                <nav>
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                </nav>
+            </div>
         </div>
-        <div class="boxs righ">
-          <a href="">f</a>
-          <a href="">t</a>
-          <a href="">In</a>
-          <a href="">P</a>
-        </div>
-        </div>
+
     </footer>
 </body>
 </html>
